@@ -987,7 +987,7 @@ class _ZoomState extends State<Zoom>
                 onScaleEnd: _onScaleEnd,
                 onScaleStart: _onScaleStart,
                 onScaleUpdate: _onScaleUpdate,
-                onDoubleTap: _onDoubleTap,
+                // onDoubleTap: _onDoubleTap,
                 onTap: widget.onTap,
                 child: widget.enableScroll
                     ? Stack(
